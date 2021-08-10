@@ -18,7 +18,6 @@ function myFunction() {
 function closeNav(){
     let media = window.matchMedia("(max-width: 400px)");
     if (media.matches) {
-        console.log("in closeNav");
         document.getElementById("myNav").removeAttribute("style");
     }
 }
